@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-27T18:35:56Z" name="Suite" finished-at="2024-08-27T18:39:46Z" duration-ms="229811">
+    <groups>
+      <group name="submitord">
+        <method signature="SubmitOrderTest.productValidation(java.util.HashMap)[pri:0, instance:RahulShettyFrameWork.SubmitOrderTest@23f5b5dc]" name="productValidation" class="RahulShettyFrameWork.SubmitOrderTest"/>
+      </group> <!-- submitord -->
+    </groups>
+    <test started-at="2024-08-27T18:35:56Z" name="Error Validation" finished-at="2024-08-27T18:35:56Z" duration-ms="3">
+    </test> <!-- Error Validation -->
+    <test started-at="2024-08-27T18:35:56Z" name="Submit order" finished-at="2024-08-27T18:39:46Z" duration-ms="229811">
+      <class name="RahulShettyFrameWork.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:RahulShettyFrameWork.SubmitOrderTest@23f5b5dc]" started-at="2024-08-27T18:35:57Z" name="launchApplication" finished-at="2024-08-27T18:36:39Z" duration-ms="42289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="productValidation(java.util.HashMap)[pri:0, instance:RahulShettyFrameWork.SubmitOrderTest@23f5b5dc]" started-at="2024-08-27T18:36:39Z" name="productValidation" data-provider="getdata" finished-at="2024-08-27T18:37:58Z" duration-ms="78523" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{prodName=Echo Fit Compression Short, password=73535429@Ip, email=indrabirur89@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:RahulShettyFrameWork.SubmitOrderTest@23f5b5dc]" started-at="2024-08-27T18:37:58Z" name="tearDown" finished-at="2024-08-27T18:37:58Z" duration-ms="554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:RahulShettyFrameWork.SubmitOrderTest@23f5b5dc]" started-at="2024-08-27T18:37:58Z" name="launchApplication" finished-at="2024-08-27T18:38:33Z" duration-ms="34731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="productValidation(java.util.HashMap)[pri:0, instance:RahulShettyFrameWork.SubmitOrderTest@23f5b5dc]" started-at="2024-08-27T18:38:33Z" name="productValidation" data-provider="getdata" finished-at="2024-08-27T18:39:42Z" duration-ms="69599" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{prodName=Echo Fit Compression Short, password=73535429@Ip, email=indramb1234@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:RahulShettyFrameWork.SubmitOrderTest@23f5b5dc]" started-at="2024-08-27T18:39:42Z" name="tearDown" finished-at="2024-08-27T18:39:46Z" duration-ms="3859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- RahulShettyFrameWork.SubmitOrderTest -->
+    </test> <!-- Submit order -->
+  </suite> <!-- Suite -->
+</testng-results>
