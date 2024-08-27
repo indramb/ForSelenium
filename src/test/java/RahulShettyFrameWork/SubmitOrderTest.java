@@ -29,7 +29,10 @@ public class SubmitOrderTest extends BaseTest
 	cart.getSize();;
 	cart.getColor();
 	}
-	
+//private void syso() {
+//	// TODO Auto-generated method stub
+//
+//}
 	
 @DataProvider
 public Object[][] getdata() throws IOException
